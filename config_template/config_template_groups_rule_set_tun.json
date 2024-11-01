@@ -108,6 +108,7 @@
         "Singapore",
         "Japan",
         "America",
+        "Proxy",
         "Others"
       ],
       "default": "America"
@@ -121,6 +122,7 @@
         "Singapore",
         "Japan",
         "America",
+        "Proxy",
         "Others"
       ]
     },
@@ -133,6 +135,7 @@
         "Singapore",
         "Japan",
         "America",
+        "Proxy",
         "Others"
       ]
     },
@@ -145,6 +148,7 @@
         "Singapore",
         "Japan",
         "America",
+        "Proxy",
         "Others"
       ]
     },
@@ -157,6 +161,7 @@
         "Singapore",
         "Japan",
         "America",
+        "Proxy",
         "Others"
       ]
     },
@@ -166,7 +171,8 @@
       "outbounds":[
         "direct",
         "HongKong",
-        "TaiWan"
+        "TaiWan",
+        "Proxy"
       ]
     },
     {
@@ -186,6 +192,7 @@
         "Singapore",
         "Japan",
         "America",
+        "Proxy",
         "Others"
       ],
       "default": "America"
@@ -198,6 +205,7 @@
         "TaiWan",
         "Singapore",
         "Japan",
+        "Proxy",
         "America"
       ],
       "default": "Japan"
@@ -211,6 +219,7 @@
         "Singapore",
         "Japan",
         "America",
+        "Proxy",
         "Others"
       ]
     },
@@ -223,6 +232,7 @@
         "Singapore",
         "Japan",
         "America",
+        "Proxy",
         "Others"
       ]
     },
@@ -236,6 +246,7 @@
         "Singapore",
         "Japan",
         "America",
+        "Proxy",
         "Others"
       ]
     },
@@ -249,6 +260,7 @@
         "Singapore",
         "Japan",
         "America",
+        "Proxy",
         "Others"
       ]
     },
@@ -262,6 +274,7 @@
         "Singapore",
         "Japan",
         "America",
+        "Proxy",
         "Others"
       ]
     },
@@ -274,6 +287,7 @@
         "Singapore",
         "Japan",
         "America",
+        "Proxy",
         "Others"
       ]
     },
@@ -287,6 +301,7 @@
         "Japan",
         "America",
         "Others",
+        "Proxy",
         "direct"
       ]
     },
@@ -343,7 +358,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇯🇵|JP|jp|日本|日|Japan"]}
+        {"action":"include","keywords":["🇯🇵|JP|jp|日本|Japan"]}
       ]
     },
     {
@@ -353,7 +368,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]}
+        {"action":"include","keywords":["🇺🇸|US|us|美国|United States"]}
       ]
     },
     {
@@ -363,7 +378,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"exclude","keywords":["🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇺🇸|US|us|美国|美"]}
+        {"action":"exclude","keywords":["🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|🇺🇸|US|us|美国"]}
       ]
     },
     {
