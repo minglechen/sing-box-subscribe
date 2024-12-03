@@ -8,9 +8,9 @@
       "external_controller": "127.0.0.1:9090",
       "external_ui": "ui",
       "secret": "",
-      "external_ui_download_url": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
-      "external_ui_download_detour": "direct",
-      "default_mode": "rule"
+      "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+      "external_ui_download_detour": "",
+      "default_mode": ""
     },
   "cache_file": {
     "enabled": true,
@@ -76,7 +76,7 @@
       "stack": "system",
       "platform": {
         "http_proxy": {
-          "enabled": true,
+          "enabled": false,
           "server": "127.0.0.1",
           "server_port": 2080
         }
@@ -124,7 +124,8 @@
         "America",
         "Proxy",
         "Others"
-      ]
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"Telegram",
@@ -137,7 +138,8 @@
         "America",
         "Proxy",
         "Others"
-      ]
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"Twitter",
@@ -150,7 +152,8 @@
         "America",
         "Proxy",
         "Others"
-      ]
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"Facebook",
@@ -163,7 +166,8 @@
         "America",
         "Proxy",
         "Others"
-      ]
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"BiliBili",
@@ -173,7 +177,8 @@
         "HongKong",
         "TaiWan",
         "Proxy"
-      ]
+      ],
+      "default": "direct"
     },
     {
       "tag":"Bahamut",
@@ -195,7 +200,7 @@
         "Proxy",
         "Others"
       ],
-      "default": "America"
+      "default": "Proxy"
     },
     {
       "tag":"TikTok",
@@ -208,7 +213,7 @@
         "Proxy",
         "America"
       ],
-      "default": "Japan"
+      "default": "Proxy"
     },
     {
       "tag":"Netflix",
@@ -221,7 +226,8 @@
         "America",
         "Proxy",
         "Others"
-      ]
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"Disney+",
@@ -234,7 +240,8 @@
         "America",
         "Proxy",
         "Others"
-      ]
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"Apple",
@@ -248,7 +255,8 @@
         "America",
         "Proxy",
         "Others"
-      ]
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"Microsoft",
@@ -262,7 +270,8 @@
         "America",
         "Proxy",
         "Others"
-      ]
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"Games",
@@ -276,7 +285,8 @@
         "America",
         "Proxy",
         "Others"
-      ]
+      ],
+      "default": "direct"
     },
     {
       "tag":"Streaming",
@@ -289,7 +299,8 @@
         "America",
         "Proxy",
         "Others"
-      ]
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"Global",
@@ -303,7 +314,8 @@
         "Others",
         "Proxy",
         "direct"
-      ]
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"China",
@@ -311,7 +323,8 @@
       "outbounds":[
         "direct",
         "Proxy"
-      ]
+      ],
+      "default": "direct"
     },
     {
       "tag":"AdBlock",
@@ -319,7 +332,8 @@
       "outbounds":[
         "block",
         "direct"
-      ]
+      ],
+      "default": "block"
     },
     {
       "tag":"HongKong",
